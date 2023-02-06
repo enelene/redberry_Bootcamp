@@ -1,0 +1,57 @@
+
+/*font*/
+
+@font-face {
+    font-family: 'Helvetica Neue';
+    src: url(../CSS/HelveticaNeue.ttc);
+}
+* {
+    font-family: 'Helvetica Neue';
+}
+
+/*background*/
+
+body {
+    background-image: url(../pictures/shutterstock_2189773743\ 1.png);
+    background-size: 100%;
+}
+
+/*redberry red logo and line*/
+
+#redberryLOGO {
+    width: 236px;
+    padding: 25px 0px;
+}
+#logoAndLine {
+    border-bottom: 1px solid #1A1A1A;
+    margin: 0px 70px;
+}
+
+/*redberry circle logo*/
+
+#redberry2LOGO {
+    position: absolute;
+    left: 1076px;
+    top: 473px;
+}
+
+/*button*/
+
+#addButton {
+    width: 464px;
+    height: 60px;
+    background-color: #1A1A1A;
+    border-radius: 8px;
+}
+#addButton {
+    color: #FFFFFF;
+    font-style: normal;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+}
+#addButton {
+    position: absolute;
+    left: calc(50% - 464px/2);
+    top: 513px;
+}
